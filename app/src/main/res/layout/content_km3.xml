@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Km3Activity"
+    tools:showIn="@layout/activity_km3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg1"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Углеводороды"
+                    android:textColor="#CC222121"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/roboto_medium"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_alk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    style="@style/ButtonBorder.Accent"
+                    android:padding="10dp"
+                    android:text="Алканы"
+                    android:layout_marginHorizontal="30dp"
+                    android:textSize="35sp" />
+
+                <Button
+                    android:id="@+id/btn_clk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    style="@style/ButtonBorder.Accent"
+                    android:layout_marginHorizontal="30dp"
+                    android:padding="10dp"
+                    android:text="Циклоалканы"
+                    android:textSize="35sp"/>
+
+                <Button
+                    android:id="@+id/btn_alken"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    style="@style/ButtonBorder.Accent"
+                    android:layout_marginHorizontal="30dp"
+                    android:padding="10dp"
+                    android:text="Алкены"
+                    android:textSize="35sp" />
+
+                <Button
+                    android:id="@+id/btn_alkd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    style="@style/ButtonBorder.Accent"
+                    android:layout_marginHorizontal="30dp"
+                    android:padding="10dp"
+                    android:text="Алкадиены"
+                    android:textSize="35sp" />
+
+                <Button
+                    android:id="@+id/btn_arn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    style="@style/ButtonBorder.Accent"
+                    android:layout_marginHorizontal="30dp"
+                    android:padding="10dp"
+                    android:text="Арены"
+                    android:textSize="35sp" />
+
+                <Button
+                    android:id="@+id/btn_alkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    style="@style/ButtonBorder.Accent"
+                    android:layout_marginHorizontal="30dp"
+                    android:padding="10dp"
+                    android:text="Алкины"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

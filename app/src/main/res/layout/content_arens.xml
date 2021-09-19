@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ArensActivity"
+    tools:showIn="@layout/activity_arens">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg1"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/spt_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Арены"
+                    android:textColor="#CC222121"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/roboto_medium" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_bg"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:padding="20dp"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/arens" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="Бензольное ядро"
+                android:textColor="#CC222121"
+                android:textSize="27sp"
+                app:fontFamily="@font/roboto_light" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/spt_about1"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Ароматические углеводороды (арены) - карбоциклические углеводороды,  в молекулах которых есть одно или несколько бензольных колец. Состав аренов с одним бензольным кольцом отвечает общей формуле CnH2n-6."
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"/>
+
+                <TextView
+                    android:id="@+id/spt_about2"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="В основе всех ароматических соединений лежит бензольное ядро. Ароматические соединения. имеющие в своей структуре несколько (два и более) конденсированных бензольных колец называются полиядерными ароматическими УВ и имеют свои тривиальные названия."
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".KetActivity"
+    tools:showIn="@layout/activity_ket">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/layout_bg1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/mt_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Кетоны"
+                    android:textColor="#CC222121"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/roboto_medium" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:textIsSelectable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fefefe"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Кето́ны — органические вещества, в молекулах которых карбонильная группа связана с двумя углеводородными радикалами. Общая формула кетонов: R1-CO-R2. Среди других карбонильных соединений наличие в кетонах именно двух атомов углерода, непосредственно связанных с карбонильной группой, отличает их от карбоновых кислот и их производных, а также альдегидов."
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:elevation="5dp"
+                    android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="Кетоны — летучие жидкости или легкоплавкие твёрдые вещества, низшие представители хорошо растворимы в воде и смешиваются с органическими растворителями, некоторые (ацетон) смешиваются с водой в любых соотношениях. Невозможность образования межмолекулярных водородных связей обуславливает несколько бо́льшую их летучесть, чем у спиртов и карбоновых кислот с той же молекулярной массой."
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#fefefe"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"/>
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_bg"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="#fefefe"
+                            android:text="Методы Синтеза"
+                            android:textColor="#CC222121"
+                            android:textIsSelectable="true"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            app:fontFamily="@font/roboto_light" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ket1"
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"
+                    android:layout_marginRight="15dp"
+                    android:background="#fefefe"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

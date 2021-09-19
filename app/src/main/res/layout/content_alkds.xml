@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AlkdsActivity"
+    tools:showIn="@layout/activity_alkds">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg1"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/spt_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Алкадиены"
+                    android:textColor="#CC222121"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/roboto_medium" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/alrd1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/spt_about1"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Алкадиены - ациклические углеводороды, содержащие в молекуле, помимо одинарных связей, две двойные связи между атомами углерода и соответствующие общей формуле СnH2n-2."
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"/>
+                <TextView
+                    android:id="@+id/spt_about2"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="Если двойные связи находятся в углеродной цепи между двумя или боле атомов углерода, то такие связи называются изолированными. Химические свойства таких диенов не отличаются от алкенов, только в реакцию вступают 2 связи, а не одна. Если же двойные связь разделены только одной σ - связью, то это – сопряженная связь"
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

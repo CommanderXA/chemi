@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FenolsActivity"
+    tools:showIn="@layout/activity_fenols">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/layout_bg1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/mt_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Фенолы"
+                    android:textColor="#CC222121"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/roboto_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                app:srcCompat="@drawable/fenols"
+                android:contentDescription="@string/todo"
+                tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:textIsSelectable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fefefe"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="Фено́лы — органические соединения ароматического ряда, в молекулах которых гидроксильные группы OH− связаны с атомами углерода ароматического кольца. Фенолы представляют собой полярные соединения (диполи). Бензольное кольцо является отрицательным концом диполя, группа — OH — положительным. Дипольный момент направлен в сторону бензольного кольца."
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Классификация"
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_medium"
+                    android:layout_marginRight="15dp"
+                    android:background="#fefefe"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"/>
+                <TextView
+                    android:id="@+id/textView4"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="По числу ароматических ядер различают собственно фенолы, нафтолы - 2 конденсированных ядра, антролы - 3 ядра, фенантролы - 3 ядра, бензотетролы - 4 ядер."
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"
+                    android:layout_marginRight="15dp"
+                    android:background="#fefefe"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"/>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="#fefefe"
+                    android:text="По числу ОН-групп различают:"
+                    android:textColor="#CC222121"
+                    android:textIsSelectable="true"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/roboto_light" />
+                <TextView
+                    android:id="@+id/textView6"
+                    android:textIsSelectable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fenols1"
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"
+                    android:layout_marginRight="15dp"
+                    android:background="#fefefe"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

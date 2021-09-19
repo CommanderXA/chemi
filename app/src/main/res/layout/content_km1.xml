@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Km1Activity"
+    tools:showIn="@layout/activity_km1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Кислородсодержащие"
+                    android:layout_marginTop="15dp"
+                    android:paddingHorizontal="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="#CC222121"
+                    android:background="@drawable/layout_bg2"
+                    android:textSize="28dp"
+                    app:fontFamily="@font/roboto_medium"/>
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Кислородсодержащие органические соединения – соединения, содержащие помимо углерода и водорода, еще один элемент – кислород.
+
+Атом кислорода содержится в различных функциональных группах, определяющих принадлежность соединения к конкретному классу."
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"/>
+
+                <Button
+                    android:id="@+id/btn_ox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    style="@style/ButtonBorder.Accent"
+                    android:padding="10dp"
+                    android:text="@string/km0"
+                    android:textSize="27sp" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_bg"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Азотсодержащие"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="#CC222121"
+                android:background="@drawable/layout_bg2"
+                android:textSize="31sp"
+                app:fontFamily="@font/roboto_medium"/>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Азотсодержащие органические соединения — один из важнейших типов органических соединений. В их состав входит азот. Они содержат в молекуле связь углерод-водород и азот-углерод.
+
+В нефти содержится азотсодержащий гетероцикл-пиридин. Азот входит в состав белков,нуклеиновых кислот и некоторых липидов."
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#CC222121"
+                android:textSize="25sp"
+                app:fontFamily="@font/roboto_light"/>
+
+            <Button
+                android:id="@+id/btn_nit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                style="@style/ButtonBorder.Accent"
+                android:padding="10dp"
+                android:text="@string/km0"
+                android:textSize="27sp" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Углеводороды"
+                    android:layout_marginTop="15dp"
+                    android:paddingHorizontal="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="#CC222121"
+                    android:background="@drawable/layout_bg2"
+                    android:textSize="31sp"
+                    app:fontFamily="@font/roboto_medium"/>
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pre_yv1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#CC222121"
+                    android:textSize="25sp"
+                    app:fontFamily="@font/roboto_light"/>
+                <Button
+                    android:id="@+id/btn_yv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    style="@style/ButtonBorder.Accent"
+                    android:padding="10dp"
+                    android:text="@string/km0"
+                    android:textSize="27sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MnsActivity"
+    tools:showIn="@layout/activity_mns">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/layout_bg1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/mt_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:paddingHorizontal="5dp"
+                    android:text="Моносахариды"
+                    android:textColor="#CC222121"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/roboto_medium" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:elevation="5dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textView"
+                        android:textIsSelectable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#fefefe"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="Моносахариды — органические соединения, одна из основных групп углеводов; самая простая форма сахара, являются обычно бесцветными, растворимыми в воде, прозрачными твердыми веществами. Некоторые моносахариды обладают сладким вкусом. Моносахариды — стандартные блоки, из которых синтезируются дисахариды (такие, как сахароза, мальтоза, лактоза), олигосахариды и полисахариды (такие, как целлюлоза и крахмал), содержат гидроксильные группы и альдегидную или кетогруппу. Каждый углеродный атом, с которым соединена гидроксильная группа (за исключением первого и последнего), является хиральным, что дает начало многим изомерным формам. Например, галактоза и глюкоза — альдогексозы, но имеют различные химические и физические свойства. Моносахариды представляют собой производные многоатомных спиртов, содержащие карбонильную группу — альдегидную или кетонную."
+                        android:textColor="#CC222121"
+                        android:textSize="25sp"
+                        app:fontFamily="@font/roboto_light" />
+                </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

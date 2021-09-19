@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_tabel"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_elements"
+            android:icon="@drawable/elements"
+            android:title="@string/elements" />
+        <item
+            android:id="@+id/nav_theory"
+            android:icon="@drawable/ic_th"
+            android:title="Теория Бутлерова" />
+    </group>
+        <item android:title="@string/nav_chem">
+             <menu>
+                  <group android:checkableBehavior="single">
+                     <item
+                         android:id="@+id/nav_orgchem"
+                         android:icon="@drawable/ic_org"
+                         android:title="@string/orgchem" />
+                     <item
+                         android:id="@+id/nav_inorgchem"
+                         android:icon="@drawable/ic_inorg1"
+                         android:title="@string/inorgchem" />
+                  </group>
+             </menu>
+        </item>
+        <item android:title="Связь и Реакции">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_chem_link"
+                        android:icon="@drawable/ic_link"
+                        android:title="Химическая Связь" />
+                    <item
+                        android:id="@+id/nav_chem_react"
+                        android:icon="@drawable/ic_forward_black_24dp"
+                        android:title="Химические Реакции" />
+                </group>
+            </menu>
+        </item>
+</menu>

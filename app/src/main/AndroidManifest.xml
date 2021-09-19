@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chemi.chemiapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PolsActivity"
+            android:label="@string/title_activity_pols"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".DisActivity"
+            android:label="@string/title_activity_dis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MnsActivity"
+            android:label="@string/title_activity_mns"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YglActivity"
+            android:label="@string/title_activity_ygl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EfirsActivity"
+            android:label="@string/title_activity_efirs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JirsActivity"
+            android:label="@string/title_activity_jirs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NukKActivity"
+            android:label="@string/title_activity_nuk_k"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BelksActivity"
+            android:label="@string/title_activity_belks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AminsKActivity"
+            android:label="@string/title_activity_amins_k"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AminsActivity"
+            android:label="@string/title_activity_amins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KKActivity"
+            android:label="@string/title_activity_kk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KetActivity"
+            android:label="@string/title_activity_ket"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AldgActivity"
+            android:label="@string/title_activity_aldg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FenolsActivity"
+            android:label="@string/title_activity_fenols"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NitHaveActivity"
+            android:label="@string/title_activity_nit_have"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OxHaveActivity"
+            android:label="@string/title_activity_ox_have"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Km3Activity"
+            android:label="@string/title_activity_km3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlkinsActivity"
+            android:label="@string/title_activity_alkins"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArensActivity"
+            android:label="@string/title_activity_arens"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlkdsActivity"
+            android:label="@string/title_activity_alkds"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlkensActivity"
+            android:label="@string/title_activity_alkens"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClkAlkansActivity"
+            android:label="@string/title_activity_clk_alkans"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlkansActivity"
+            android:label="@string/title_activity_alkans"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ElementsActivity"
+            android:label="@string/title_activity_elements"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Km2Activity"
+            android:label="@string/title_activity_km2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Km1Activity"
+            android:label="@string/title_activity_km1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Info2Activity"
+            android:label="@string/title_activity_info2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Info1Activity"
+            android:label="@string/title_activity_info1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YvActivity"
+            android:label="@string/title_activity_yv"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SptActivity"
+            android:label="@string/title_activity_spt"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NemtActivity"
+            android:label="@string/title_activity_nemt"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MtActivity"
+            android:label="@string/title_activity_mt"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
